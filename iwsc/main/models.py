@@ -6,6 +6,7 @@ class Blog(models.Model):
 	description = models.TextField()
 	eligibility=models.CharField(max_length = 500)
 	deadline=models.CharField(max_length = 500)
+        apply=models.CharField(max_length = 500)
 	def __str__(self):
 		return self.opportunity_type
 
