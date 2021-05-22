@@ -1,5 +1,4 @@
 {% load static %}
-
 <!DOCTYPE html>
 <head>
     <title>IWSC</title>
@@ -9,76 +8,80 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    </head>
-<body>
-
-    <section id="header">
-        <div class="menu-bar">
-          <nav class="navbar navbar-expand-lg navbar-light ">
-              <a class="navbar-brand text-white" href="#">
-                INCEPTION WAVE
-              </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto" >
-              <li class="nav-item ">
-                <a class="nav-link " href="{% url 'main:home' %}">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="/about/">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="/blog/">Blogs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="/contact/">Contact Us</a>
-              </li>
-              
-              
-            </ul>
-              </div>
-            </nav>
-        </div> 
-
-</section>
-
-<section class="sec1">
- 
-<div class="abt">
-<br>
-        <h1 class="text-center" ">What Is Inception Wave?</h1>     
-        <p>Inception Wave is an organisation that combines the entrepreneurial innovation driven mindset of an emerging and vibrant youth community with the colossal upsides and tremendous convenience that comes with effective connection and collaboration. Our vision is to effectively enhance professional culture by enabling our users to find the people and communities there personal and professional interests align with. This is envisioned as a process that will compartmentalize and segregate online spaces on our services via parameters such as geographical location, interests, experiences and potential prospects. The idea is to present and furnish a platform where it is the users who decide their preferences and are able to come across an extensive community of like-minded people that share common aspirations and a more-or less unified outlook. Being a student-led and student-run enterprise, the key feature here is flexibility, adaptability, and dynamic feedback response.
-        </p>
-        
-        <br>
-  </div>
-
-</section>
-
-<footer class="page-footer font-small pt-4 pl-md-5">
-  <div class="container " style="height: 100px;">
-      <div class="row">
-          <div class="col-md-12 py-3">
-          <h5 class= "pb-2 text-center">Follow Us</h5>
-          <div class="mb-2 text-center">
-            <a href = "https://m.facebook.com/Inception-Wave-igdtuw-105345131339106/?refid=52&__tn__=C-R" class="fb-ic" style="color: rgb(255, 255, 255);">
-              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <a href = "#" class="tw-ic" style="color:  rgb(255, 255, 255);">
-              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <a href = "#" class="li-ic" style="color:  rgb(255, 255, 255);">
-              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <a href = "https://www.instagram.com/iwsc_igdtuw/" class="ins-ic" style="color:  rgb(255, 255, 255);">
-              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <header>
+      <div class="wrapper">
+          <div class="logo">
+              <img src="https://i.postimg.cc/mg4rWBmv/logo.png" alt="">
           </div>
-        </div>
-      </div>
+  <ul class="nav-area">
+  <li><a href="{% url 'main:home' %}">Home</a></li>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/blog/">Blogs</a></li>
+  <li><a href="/contact/">Contact</a></li>
+  </ul>
   </div>
-</footer>
-</body>
-</html>
+  <div class="welcome-text">
+            <div class="card text-center">
+            <div class="card-header">
+              <h2>What is Inception Wave?</h2>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Inception Wave is an organisation that combines the entrepreneurial innovation driven mindset of an emerging and vibrant youth community with the colossal upsides and tremendous convenience that comes with effective connection and collaboration. Our vision is to effectively enhance professional culture by enabling our users to find the people and communities there personal and professional interests align with. This is envisioned as a process that will compartmentalize and segregate online spaces on our services via parameters such as geographical location, interests, experiences and potential prospects. The idea is to present and furnish a platform where it is the users who decide their preferences and are able to come across an extensive community of like-minded people that share common aspirations and a more-or less unified outlook. Being a student-led and student-run enterprise, the key feature here is flexibility, adaptability, and dynamic feedback response.
+              </p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href = "https://m.facebook.com/Inception-Wave-igdtuw-105345131339106/?refid=52&__tn__=C-R" class="fb-ic" >
+                <i class="fab fa-facebook-f fa-2x"> </i>
+              </a>
+              <a href = "#" class="tw-ic" >
+                <i class="fab fa-twitter  fa-2x"> </i>
+              </a>
+              <a href = "#" class="li-ic" >
+                <i class="fab fa-linkedin-in  fa-2x"> </i>
+              </a>
+              <a href = "https://www.instagram.com/iwsc_igdtuw/" class="ins-ic" >
+                <i class="fab fa-instagram  fa-2x"> </i>
+              </a>
+            </div>
+          </div>
+          <h3 class="text-center"> <b>What We Provide At <span>IWSC IGDTUW</span></b></h3>
+          <div class="card-deck" >
+              <div class="card border-info shadow p-3 mb-5 rounded" style="height:10rem;">
+                  <i class="card-img-top fas fa-laptop fa-4x "></i>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Internship Details</h5>
+                </div>
+              </div>
+              <div class="card border-info shadow p-3 mb-5 rounded " style="height:10rem;">
+                  <i class=" card-img-top fas fa-user-graduate fa-4x"></i>
+                  <div class="card-body">
+                      <h5 class="card-title text-center">Scholarship Details</h5>
+                    </div>
+              </div>
+              <div class="card border-info shadow p-3 mb-5 rounded " style="height:10rem;">
+                  <i class=" card-img-top fas fa-trophy fa-4x"></i>
+                  <div class="card-body">
+                      <h5 class="card-title text-center">Competition Details</h5>
+                    </div>
+              </div>
+              <div class="card border-info shadow p-3 mb-5 rounded" style="height:10rem;">
+                  <i class=" card-img-top fas fa-business-time fa-4x"></i>
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Career Oriented Hap</h5>
+                  </div>
+              </div>
+  
+          </div>
+          <div>
+          <center>
+            
+                <a class="btn btn-primary text-white"  href="/blog/">View All Opportunities</a>
+          </center>
+        </div> 
+      </div>
+  </header>
+  </body>
+  </html>

@@ -14,7 +14,7 @@ class BlogAdmin(admin.ModelAdmin):
 				'description',
 				'eligibility',
 				'deadline', 
-                                'apply',
+                
 				]
 	list_display = ('opportunity_type' ,'deadline')
 	list_filter = ('opportunity_type','deadline' )
