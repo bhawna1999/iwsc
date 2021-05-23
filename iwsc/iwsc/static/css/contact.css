@@ -33,17 +33,19 @@ header {
 	padding: 5px 20px;
 	font-family: poppins;
 	font-size: 16px;
+	font-weight: bold;
 	text-transform: uppercase;
 }
 .nav-area li a:hover {
 	background: #fff;
 	color: #333;
+	border-radius: 10px;
 }
 .logo {
 	float: left;
 }
 .logo img {
-	width: 100%;
+	width: 50%;
 	padding: 15px 0;
 }
 .welcome-text {
@@ -51,11 +53,10 @@ header {
 	width: 900px;
 	height: 300px;
 	margin: 10% 20%;
-	text-align: center;
 }
 .welcome-text h2 {
 	text-align: center;
-	color: #1187d1;
+	color: #5b9eda;
 	text-transform: uppercase;
 	font-size: 50px;
 }
@@ -75,7 +76,8 @@ header {
 	color: #333;
 }
 .welcome-text .card{
-	color: #1187d1;
+	color: #5b9eda;
+	box-shadow: 5px 5px 5px #fff;
 }
 .welcome-text .card-footer a
 {
